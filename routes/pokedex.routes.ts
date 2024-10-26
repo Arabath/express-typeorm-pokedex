@@ -12,7 +12,7 @@ import {
 const router = Router();
 router.get('/pokemon', getPokemon);
 
-router.get('/:id', getPokemonById);
+router.get('/pokemon/:id', getPokemonById);
 
 router.post('/pokemon', createPokemon);
 
